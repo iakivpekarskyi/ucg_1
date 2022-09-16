@@ -1,1 +1,74 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+    --color-hero-title: #E9E9E9;
+    --color-white: #fff;
+    --background-color-offer: #28A745;
+    --text-color-offer: #FFFFFF;
+    --btn-color-text: #FFFFFF;
+    --btn-color-border: #FFFFFF;
+    --color-logo: #28A745;
+    --white-color: #FFFFFF;
+    --text-color: #333333;
+    --primery-font: 'Open Sans', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+ul,
+ol {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    padding: 0px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+
+}
+
+input {
+    padding: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1360px;
+    padding-left: 10px;
+
+}
+
