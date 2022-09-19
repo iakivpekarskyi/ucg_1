@@ -129,6 +129,161 @@ body {
 }
 
 :root {
+  --color-hero-title: #E9E9E9;
+  --color-white: #fff;
+  --background-color-offer: #28A745;
+  --text-color-offer: #FFFFFF;
+  --btn-color-text: #FFFFFF;
+  --btn-color-border: #FFFFFF;
+  --color-logo: #28A745;
+  --white-color: #FFFFFF;
+  --text-color: #333333;
+  --primery-font: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  padding: 0px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+input {
+  padding: 0px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1360px;
+  padding-left: 10px;
+}
+
+.contact {
+  background-color: #F4F4F4;
+}
+
+.contact__box {
+  display: flex;
+  padding: 0;
+}
+
+.contact__section {
+  width: 680px;
+  height: 460px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F4F4F4;
+  padding: 78px 30px 82px 30px;
+}
+
+.contact__title {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  color: #333333;
+  margin-bottom: 34px;
+}
+
+.contact__input {
+  width: 100%;
+  height: 42px;
+  background: #FFFFFF;
+  border: 1px solid #F5F5F5;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #212121;
+  outline: none;
+  padding-left: 10px;
+}
+
+.contact__input::-moz-placeholder {
+  color: #808080;
+  padding: 0px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.contact__input:-ms-input-placeholder {
+  color: #808080;
+  padding: 0px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.contact__input::placeholder {
+  color: #808080;
+  padding: 0px;
+  padding-top: 6px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.contact__input:first-child {
+  margin-bottom: 36px;
+}
+
+.contact__btn {
+  font-size: 18px;
+  line-height: 1.38;
+  color: #FFFFFF;
+  background-color: #28A745;
+  color: #FFFFFF;
+  background-color: #28A745;
+  width: 100%;
+  height: 42px;
+  border: none;
+  margin-top: 60px;
+  border-radius: 5px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact__btn:hover, .contact__btn:focus {
+  background-color: #169A3B;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+:root {
   --btn-color-text: #FFFFFF;
   --color-logo: #28A745;
   --text-color: #333333;
