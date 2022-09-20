@@ -172,7 +172,7 @@ body {
   background-color: var(--primary-color);
 }
 
-.team-subtitle {
+.team__subtitle {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
@@ -182,7 +182,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.team-title {
+.team__title {
   margin-bottom: 34px;
   font-family: inherit;
   font-style: normal;
@@ -193,7 +193,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.team-slogan {
+.team__slogan {
   margin-bottom: 45px;
   font-style: normal;
   font-weight: 400;
@@ -203,7 +203,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.team-list {
+.team__list {
   display: flex;
   justify-content: center;
   -moz-column-gap: 15px;
@@ -230,7 +230,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.social-list-wrapper {
+.team__team__social-list-wrapper {
   display: block;
   position: absolute;
   top: 50%;
@@ -238,7 +238,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.social-list {
+.team__social-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,7 +246,7 @@ body {
        column-gap: 25px;
 }
 
-.social-list-link {
+.team__social-list-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,8 +255,14 @@ body {
   border-radius: 50%;
 }
 
-.social-list-icon {
+.team__social-list-icon {
   fill: #fff;
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team__social-list-link:focus .team__social-list-icon,
+.team__social-list-link:hover .team__social-list-icon {
+  fill: var(--color-logo);
 }
 
 .youtube-icon {
@@ -269,6 +275,6 @@ body {
   height: 35px;
 }
 
-.team-box {
+.team__box {
   position: relative;
 }/*# sourceMappingURL=index.css.map */
