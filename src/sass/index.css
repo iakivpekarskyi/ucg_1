@@ -69,7 +69,6 @@ body {
   padding-left: 10px;
 }
 
-/* =================Offer================= */
 .offer {
   background-color: var(--background-color-offer);
 }
@@ -118,50 +117,6 @@ body {
 
 .input {
   padding: 0px;
-}
-
-:root {
-  --primary-color: #ffffff;
-  --secondary-color: ;
-  --primary-text-color: #333333;
-  --primary-font: "Open sans";
-}
-
-h1,
-h2,
-h3,
-h4,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.container {
-  width: 1360px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* -//-//-//-//-//-//-//- Body -//-//-//-//-//-//-//- */
-body {
-  font-size: 14px;
-  font-family: "Open sans", sans-serif;
-  letter-spacing: 0.03em;
-  background-color: var(--primary-color);
-  color: var(--primary-text-color);
-}
-
-ul {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-img {
-  display: block;
 }
 
 .section-team {
