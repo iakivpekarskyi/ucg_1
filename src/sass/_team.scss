@@ -1,0 +1,110 @@
+.section-team {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: var(--primary-color);
+}
+
+.team__subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.team__title {
+  margin-bottom: 34px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.team__slogan {
+  margin-bottom: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.team__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+}
+
+.team-member {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.28;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.position {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.team__team__social-list-wrapper {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.team__social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+}
+.team__social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+
+}
+
+.team__social-list-icon {
+  fill: #fff;
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-duration: 0.5s;
+  transition-property: fill, transform;
+
+}
+
+.team__social-list-link:focus .team__social-list-icon,
+.team__social-list-link:hover .team__social-list-icon {
+  fill: var(--color-logo);
+  transform: scale(1.4);
+
+}
+
+.youtube-icon {
+  width: 40px;
+  height: 35px;
+}
+.linkedin-icon {
+  width: 31px;
+  height: 35px;
+}
+
+.team__box {
+  position: relative;
+}
