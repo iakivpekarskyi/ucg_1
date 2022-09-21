@@ -255,40 +255,21 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-:root {
-  --btn-color-text: #FFFFFF;
-  --color-logo: #28A745;
-  --text-color: #333333;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1360px;
-  outline: 2px solid red;
-}
-
-.list {
-  list-style: none;
-}
-
-
-.page-footer {
+.footer {
   background-color: var(--text-color);
 }
 
-.footer-box {
+.footer__box {
   padding-top: 20px;
   padding-bottom: 16px;
-
-  padding-left: 0;
-}
-
-.footer-list-social-case {
-  margin-bottom: 10px;
+  padding-left: 0px;
 }
 
 .footer-list-social {
+  margin-bottom: 10px;
+}
+
+.footer-list-social__case {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -296,7 +277,7 @@ body {
        column-gap: 25px;
 }
 
-.footer-list-social-link {
+.footer-list-social__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -304,13 +285,11 @@ body {
   height: 40px;
 }
 
-.footer-list-social-icon {
+.footer-list-social__icon {
   fill: var(--btn-color-text);
   transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-list-social-link:focus .footer-list-social-icon,
-.footer-list-social-link:hover .footer-list-social-icon {
+.footer-list-social__link:focus .footer-list-social__icon, .footer-list-social__link:hover .footer-list-social__icon {
   fill: var(--color-logo);
 }
 
@@ -384,7 +363,6 @@ body {
   fill: var(--color-white);
 }
 
-
 .offer {
   background-color: var(--background-color-offer);
 }
@@ -433,7 +411,6 @@ body {
 
 .input {
   padding: 0px;
-
 }
 
 .section-team {
@@ -528,11 +505,14 @@ body {
 .team__social-list-icon {
   fill: #fff;
   transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.5s;
+  transition-property: fill, transform;
 }
 
 .team__social-list-link:focus .team__social-list-icon,
 .team__social-list-link:hover .team__social-list-icon {
   fill: var(--color-logo);
+  transform: scale(1.4);
 }
 
 .youtube-icon {
@@ -547,5 +527,4 @@ body {
 
 .team__box {
   position: relative;
-
 }/*# sourceMappingURL=index.css.map */
