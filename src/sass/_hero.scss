@@ -5,15 +5,33 @@
     --bg-bnt-tuch: #1b9137;
 }
 
+@media screen and (min-width: 480px) {
+    .container {
+        width: 480px;
+        margin: 0 auto;
+    }
+}
 
 .hero {
+    padding-top: 44px;
+    padding-bottom: 95px;
     background-color: rgba(0, 0, 0, 0.4);
-    padding-top: 229px;
-    padding-bottom: 284px;
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(../images/mobile-bg@1x.jpg);
     background-size: cover;
-    width: 1360px;
     margin: 0 auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: url(../images/mobile-bg@2x.jpg);
+    }
+}
+
+.container {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .hero-box {
@@ -24,28 +42,29 @@
 
 .hero-title {
     font-weight: 300;
-    font-size: 55px;
-    line-height: 1.2;
+    font-size: 52px;
+    line-height: 1.27;
+    text-align: center;
     color: var(--color-hero-title);
-    margin-bottom: 25px;
+    margin-bottom: 16px;
 }
 
 .hero-sub-title {
-    font-weight: 400;
     font-size: 22px;
-    line-height: 1.68;
+    line-height: 37px;
+    text-align: center;
     color: var(--color-hero-title);
-    margin-bottom: 29px;
+    margin-bottom: 27px;
 }
 
 .hero-btn {
-    width: 165px;
-    height: 48px;
+    width: 156px;
+    height: 45px;
     background: var(--bg-btn);
     border-radius: 5px;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 1.56;
+    font-size: 16px;
+    line-height: 1.63;
     text-align: center;
     color: var(--color-white);
     border: none;
@@ -54,7 +73,7 @@
 
         &:hover,
         &:focus {
-            background: var(--bg-bnt-tuch);
+                background: var(--bg-bnt-tuch);
         }
 }
 
@@ -64,4 +83,130 @@
     fill: var(--color-white);
 
 }
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .hero {
+        padding-top: 357px;
+        padding-bottom: 412px;
+        background-image: url(../images/tablet-bg@1x.jpg);
+    }
+
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: url(../images/tablet-bg@2x.jpg);
+        }
+
+
+    }
+    
+    .hero-title {
+        font-size: 55px;
+        line-height: 1.2;
+        margin-bottom: 25px;
+
+    }
+
+    .hero-sub-title {
+        margin-bottom: 29px;
+    }
+
+    .hero-btn {
+        width: 165px;
+        height: 48px;
+        font-size: 18px;
+        line-height: 1.56;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1360px;
+    }
+
+    .hero {
+        padding-top: 229px;
+        padding-bottom: 284px;
+        background-image: url(../images/desktop-bg@1x.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: url(../images/desktop-bg@2x.jpg);
+    }
+}
+}
+
+
+// .hero {
+//     background-color: rgba(0, 0, 0, 0.4);
+//     padding-top: 229px;
+//     padding-bottom: 284px;
+//     background-image: url(../images/hero-bg.jpg);
+//     background-size: cover;
+//     width: 1360px;
+//     margin: 0 auto;
+// }
+
+// .hero-box {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+// .hero-title {
+//     font-weight: 300;
+//     font-size: 55px;
+//     line-height: 1.2;
+//     color: var(--color-hero-title);
+//     margin-bottom: 25px;
+// }
+
+// .hero-sub-title {
+//     font-weight: 400;
+//     font-size: 22px;
+//     line-height: 1.68;
+//     color: var(--color-hero-title);
+//     margin-bottom: 29px;
+// }
+
+// .hero-btn {
+//     width: 165px;
+//     height: 48px;
+//     background: var(--bg-btn);
+//     border-radius: 5px;
+//     font-weight: 400;
+//     font-size: 18px;
+//     line-height: 1.56;
+//     text-align: center;
+//     color: var(--color-white);
+//     border: none;
+//     padding: 10px 28px;
+//     cursor: pointer;
+
+//         &:hover,
+//         &:focus {
+//             background: var(--bg-bnt-tuch);
+//         }
+// }
+
+// .hero-btn-icon {
+//     width: 8px;
+//     height: 12px;
+//     fill: var(--color-white);
+
+// }
 
