@@ -6,16 +6,14 @@
 
     background-color: var(--white-color);
 }
-
 .cases__subtitle {
     margin-bottom: 15px;
 
-    font-size: 20px;
-    line-height: 1.65;
+    font-size: 18px;
+    line-height: 1.67;
     text-align: center;
 
     color: var(--text-color);
-
 }
 
 .cases__title {
@@ -29,11 +27,11 @@
     color: var(--text-color);
 }
 
-.cases__text-content {
-    margin-bottom: 39px;
+ .cases__text-content {
+    margin-bottom: 37px;
 
-    font-size: 18px;
-    line-height: 1.56;
+    font-size: 16px;
+    line-height: 1.6;
     text-align: center;
 
     color: var(--text-color);
@@ -41,9 +39,48 @@
 
 .cases__gallery {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 7px;
-    column-gap: 8px;
-
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
 }
+
+
+@media screen and (max-width: 767px){
+    .cases__title{
+        width: 219px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cases__text-content{
+        width: 207px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .cases__subtitle {
+        font-size: 20px;
+        line-height: 1.65;
+    }
+    .cases__text-content {
+        margin-bottom: 39px;
+
+        font-size: 18px;
+        line-height: 1.56;
+    }
+    .cases__gallery {
+        height: 240px;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+
+@media screen and (min-width: 1360px) {
+    .cases__gallery{
+        height: 435px;
+    }
+}
+
+
